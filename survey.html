@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Home | ShoesOfThrones</title>
+	<link rel="stylesheet" href="survey.css">
+</head>
+
+<body>
+	<div id="wrapper">
+		<header>
+			<h1 style="color:black"><i>&ensp; &ensp; &ensp; &ensp; &ensp; ShoesOfThrones</i></h1>
+		</header>
+	<ul id="main_menu">
+			<li><a href="index.html">Home</a></li>
+			<li><a href="Women.html">Women Shoes</a></li>
+			<li><a href="Men.html">Men Shoes</a></li>
+			<li><a href="ContactUs.html">Contact Us</a></li>
+			<li><a href="AboutUs.html">About Us</a></li>
+			<li><a href="survey.html">Survey</a></li>
+	</ul>
+	
+	<div>
+	<h1>Survey</h1>
+<p>Thank you for completing our survey, we will use the data given to strive towards maximum customer satisfaction!</p>
+<br>
+<p>Please fill in the details below.</p>
+
+<form autocomplete="on">
+
+<fieldset><legend>Personal Info</legend>
+
+<label>Gender:</label>
+<input type="radio" name="sex" value="male">Male
+<input type="radio" name="sex" value="female">Female
+
+<br>
+<br>
+
+<label>What is your age-group?</label>	
+<br>
+<input type="radio" name="age" value="young">Below 18 &emsp; <input type="radio" name="age" value="youngadult">18-25
+<br>
+<input type="radio" name="age" value="adult">26-40 &emsp; <input type="radio" name="age" value="senior">Above 40
+
+<br>
+<br>
+
+<label>Which country do you live in?</label>
+<input type="text" name="country" id="country" list="countries">
+<datalist id="countries">
+	<option value="Afghanistan">
+	<option value="Albania">
+	<option value="Algeria">
+	<option value="Andorra">
+	<option value="Angola">
+	<option value="Antigua">
+	<option value="Argentina">
+	<option value="Armenia">
+	<option value="Australia">
+	<option value="Austria">
+	<option value="AzerbaijanA">
+	<option value="Bahamas">
+	<option value="Bahrain">
+	<option value="Bangladesh">
+	<option value="Barbados">
+	<option value="Belarus">
+	<option value="Belgium">
+	<option value="Belize">
+	<option value="Benin">
+	<option value="Bhutan">
+	<option value="Bolivia">
+	<option value="Bosnia">
+	<option value="Botswana">
+	<option value="Brazil">
+	<option value="Brunei">
+	<option value="Bulgaria">
+	<option value="Burkina Faso">
+	<option value="Burundi">
+	<option value="Cabo Verde">
+	<option value="Cambodia">
+	<option value="Cameroon">
+	<option value="Canada">
+	<option value="Chad">
+	<option value="Chile">
+	<option value="China">
+	<option value="Colombia">
+	<option value="Costa Rica">
+	<option value="Croatia">
+	<option value="Cuba">
+	<option value="Cyprus">
+	<option value="Czech Republic">
+	<option value="Denmark">
+	<option value="Djibouti">
+	<option value="Dominica">
+	<option value="Dominican Republic">
+	<option value="Germany">
+	<option value="Ghana">
+	<option value="Greece">
+	<option value="Grenada">
+	<option value="Guatemala">
+	<option value="Guinea">
+	<option value="Guinea-Bissau">
+	<option value="Guyana">
+	<option value="Haiti">
+	<option value="Honduras">
+	<option value="Hungary">
+	<option value="Iceland">
+	<option value="India">
+	<option value="Indonesia">
+	<option value="Iran">
+	<option value="Iraq">
+	<option value="Ireland">
+	<option value="Israel">
+	<option value="Italy">
+	<option value="Malaysia">
+	<option value="Maldives">
+	<option value="Mali">
+	<option value="Malta">
+	<option value="Marshall Islands">
+	<option value="Mauritania">
+	<option value="Mauritius">
+	<option value="South Korea">
+	<option value="South Sudan">
+	<option value="Spain">
+	<option value="Sri Lanka">
+	<option value="Sudan">
+	<option value="Suriname">
+	<option value="Swaziland">
+	<option value="Sweden">
+	<option value="Switzerland">
+	<option value="Zambia">
+	<option value="Zimbabwe">
+</datalist>
+<br>
+<br>
+<label>Where did you hear ShoesOfThrones from?</label>
+<br>
+<input type="checkbox" name="source" value="young">From a friend/relative &emsp; <input type="checkbox" name="source" value="youngadult">From a news report
+<br>
+<input type="checkbox" name="source" value="adult">From a magazine &emsp; <input type="checkbox" name="source" value="senior">Others
+<br>
+<br>
+
+<label>If Others, please specify: </label><input type="text" name="other" id="others" size="30">
+<br>
+<br>
+
+<label>Which shoes brand do you prefer?</label>
+<br>
+<input type="checkbox" name="source" value="young">Nike &emsp; <input type="checkbox" name="source" value="youngadult">Adidas
+<br>
+<input type="checkbox" name="source" value="adult">Vans &emsp; 
+<br>
+<br>
+
+<label>Why do you prefer this brand? </label><input type="text" name="prefer" id="prefers" size="30">
+<br>
+<br>
+
+<label>Telephone:</label>
+<input type="tel" name="Tel" id="Tel" size="30" placeholder="Pattern: 1-234-567-8910" required pattern="(([0-9]{1})(-[0-9]{3})(-[0-9]{3})(-[0-9]{4}))">
+
+<br>
+<br>
+
+<label>Email:
+<input type="email" name="mail" id="mail" size="30" placeholder="Enter your email address." required multiple></label>
+</fieldset>
+
+<br>
+
+<fieldset><legend>Feedback</legend>
+
+<label>Rate our website! (1-5)</label>
+<input type="number" name="quantity" id="quantity" min="1" max="5" >
+<br>
+<br>
+<label>Comments/Feedback:</label>
+<br>
+<textarea name="comments" id="comments" rows="4" cols="40" placeholder="All feedbacks aiming to improve our website are welcome.">
+</textarea>
+</fieldset>
+
+<br>
+
+<input type="submit" value="Submit" id="Submit">
+</form>
+	</div>
+	
+	</div>
+
+
+<footer id="footerwrap">
+	<div><h3>Find out more here:</h3></div>
+	<div>
+		<ul id="social">
+			<li><a href="http://www.nike.com/my/en_gb/?ref=https%253A%252F%252Fwww.google.com%252F"><img src="nike.jpg" alt="Nike" height="42" width="42"></a></li>
+			<li><a href="http://shop.adidas.com.my/?gclid=Cj0KEQjwt6fHBRDtm9O8xPPHq4gBEiQAdxotvKjx9nN5tUo14Af4Lc-2X5yh04gKRcK2Uyz6PLTLtrQaArdY8P8HAQ&gclsrc=aw.ds"><img src="adidas.png" alt="Adidas" height="42" width="42"></a></li>
+			<li><a href="http://www.vans.com/mens.html"><img src="vans.png" alt="Vans" height="42" width="42"></a></li>
+		</ul>
+	</div>
+ShoesOfThrones &copy; Copyright 2017
+</footer>
+</body>
+</html>
